@@ -8,4 +8,7 @@ Objetivos Gerais:
  
 Objetivos Específicos:
     Ao final da disciplina o aluno deverá ter noções do uso de instrumentos elétricos, tais como osciloscópio, multímetros e geradores, etc. Com as noções básicas adquiridas nesta disciplina o aluno deverá entender e projetar circuitos elétricos simples indispensáveis nas disciplinas mais avançadas ao curso de Computação.
+<<<<<<< HEAD
  
+=======
+>>>>>>> 5cf4e67af4bd81d86e166c47f721d3869e59bc4a
