@@ -21,4 +21,4 @@ Metodologia:
     Aula expositiva, debates e metodologia ativas
  
 Critérios de Avaliação:
-    Avaliação (prova) participação seminários
+    Avaliação (prova) participação seminários.
