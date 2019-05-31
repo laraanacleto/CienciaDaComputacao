@@ -1,4 +1,4 @@
-Disciplina: CÁLCULO I
+CÁLCULO I
 Periodo: 1
 Carga Horária: 60
  
