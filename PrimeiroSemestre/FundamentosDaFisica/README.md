@@ -15,4 +15,4 @@ Metodologia:
     Aulas expositivas; listas de exercícios; vídeos e simuladores
  
 Critérios de Avaliação:
-    Listas de exercício e Provas Bimestrais
+    Listas de exercício e Provas Bimestrais.
