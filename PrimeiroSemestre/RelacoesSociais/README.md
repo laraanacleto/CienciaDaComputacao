@@ -18,7 +18,7 @@ Objetivos Específicos:
 cotidiano.
  
 Metodologia:
-    Aula expositiva, debates e metodologia ativas
+    Aula expositiva, debates e metodologia ativas.
  
 Critérios de Avaliação:
     Avaliação (prova) participação seminários.
