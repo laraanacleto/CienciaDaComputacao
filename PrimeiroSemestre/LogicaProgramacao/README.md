@@ -15,4 +15,4 @@ Metodologia:
     Aulas teóricas em sala de aula com a apresentação dos conceitos e práticas em laboratório para exercitar os mesmos.
  
 Critérios de Avaliação:
-    Provas bimestrais, listas de exercício e trabalho de fim de curso
+    Provas bimestrais, listas de exercício e trabalho de fim de curso.
