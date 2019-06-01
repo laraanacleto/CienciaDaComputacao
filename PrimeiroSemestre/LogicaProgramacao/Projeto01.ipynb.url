@@ -1,2 +1,51 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1aBrJnT1IFFdUypZFMxQYg10uiNU9-tEx
+print("Inicio")
+
+while True:
+  qtd = int(input('informe uma quantidade ' ))
+ 
+  
+  if qtd == 0:
+    print("Fim sem embalar")
+    break
+  
+  elif qtd > 100:
+    while True:
+      if  qtd < 10:
+        break
+        
+      qtd = qtd - 10
+      print(qtd)
+     
+    break  
+    
+ 
+#___________________________________________________________________________#
+print("Arrumando")
+
+while True:
+  qtd = int(input('informe uma quantidade ' ))
+  cx = 0
+ 
+  
+  if qtd == 0:
+    print("Fim sem embalar")
+    break
+  
+  elif qtd > 100:
+   
+    while True:
+    
+      if  qtd < 10:
+        break
+        
+      cx = cx + 1
+      qtd = qtd - 10
+      
+     
+     
+    break  
+    
+print("Refugo = " , qtd)  
+print("Caixas Processadas = " , cx)  
+
+print("Final da aplicação")
