@@ -14,4 +14,4 @@ Carga Horária: 60
     Aulas expositivas com exemplos representativos e suas aplicações. Lista de exercícios. Aulas para discussão de dúvidas e resolução dos exercícios das listas.
  
 *** Critérios de Avaliação:
-    Trabalho em grupo e/ou individual. Lista de exercícios à serem resolvidas. Provas individuais.
+    Trabalho em grupo e/ou individual. Lista de exercícios à serem resolvidas. Provas individuais
