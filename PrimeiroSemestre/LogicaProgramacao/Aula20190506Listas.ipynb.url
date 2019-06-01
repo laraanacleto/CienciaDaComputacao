@@ -1,2 +1,77 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1FzFA8DZDEI-aLl9huokyKtVwkrJmmdI4
+# listas [] 
+# tuplas ()
+# dicionario {}
+
+#-------------------------------#
+
+lst1 = ['The Vampire Diaries', 'Teen Wolf' , 'Game Of Thrones', 'The Originals']
+lst2 = [1,2,3,4,5,6,7,8,9,0]
+lst3 = ['a','b','c','d']
+
+lst_t = [lst1, lst2, lst3]
+
+#print(lst1[0]) # você le a primeira posição da lista
+#print(lst2[0])
+#print(lst3[0])
+#print(lst_t[0])# lê o primeiro item da lista t
+
+#print(lst_t[0][-1])#-1 eu vejo o ultimo item da lista
+print(lst_t[0][-1], lst_t[1][-1])# lê o ultimo de duas listas
+#__________________________________________________________________#
+
+lst = []
+lst.append(1) # append sempre adiciona 1 no final
+lst.append('Jeff')
+print(lst)
+print(len(lst))# len mostra o numero de elementos
+lst.append('Helena')
+print(len(lst))
+
+#___________________________________________________________________#
+import numpy as np #importando a biblioteca numpy
+
+lst= list(np.arange(0.0,100,0.001))
+#print(len(lst))
+#print(lst)
+
+for H in lst:
+  print(H)
+#_________________________________________________________________________#
+lst_b = ['The Vampire Diaries', 'Teen Wolf' , 'Game Of Thrones', 'The Originals']
+lst_b.append('Gossip Girl') #adiciono mais um
+print(lst_b)
+del lst_b[3] #deleto um elemento
+print(lst_b)
+
+#atualizar posição
+#lst_b[-1] = 'Criminal Minds'
+#print(lst_b[-1])
+#print(lst_b)
+
+#---------------------------------------------------------------------------------
+lst_b = ['The Vampire Diaries', 'Teen Wolf' , 'Game Of Thrones', 'The Originals']
+lst_b.append('Gossip Girl') #adiciono mais um
+print(lst_b)
+del lst_b[3] #deleto um elemento
+print(lst_b)
+
+#atualizar posição
+#lst_b[-1] = 'Criminal Minds'
+#print(lst_b[-1])
+#print(lst_b)
+
+#---------------------------------------------------------------------------------
+lst_b = ['The Vampire Diaries', 'Teen Wolf' , 'Game Of Thrones', 'The Originals']
+lst_b.append('Gossip Girl') #adiciono mais um
+print(lst_b)
+del lst_b[3] #deleto um elemento
+print(lst_b)
+
+#atualizar posição
+#lst_b[-1] = 'Criminal Minds'
+#print(lst_b[-1])
+#print(lst_b)
+
+#---------------------------------------------------------------------------------
+
+
