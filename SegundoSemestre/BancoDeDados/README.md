@@ -14,4 +14,4 @@ Carga Horária: 80
     Aulas expositivas e práticas em laboratório. Trabalhos em grupo e individuais. Utilização de Ferramenta de Modelagem de Dados e Sistema de Gerenciamento de Banco de Dados para praticar os resultados. Discussão com a sala sobre exercícios.
  
 *** Critérios de Avaliação:
-    Provas escritas, trabalhos em grupos e individuais.
+    Provas escritas, trabalhos em grupos e individuais
