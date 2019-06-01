@@ -1,2 +1,89 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/12u4r252XsC454zxKOexF2UIjx_m3RVMT
+ #Cenario 1
+
+idade = int(input('informe a sua idade ' ))
+
+if idade > 18:
+  print("Você é maior de idade")
+#__________________________________________________________________#
+#Cenario 2
+
+idade = int(input('informe a sua idade ' ))
+
+if idade > 18:
+  print("Você é maior de idade")
+  
+else:
+  print("Você tem menos de 18 anos ")
+#_________________________________________________________________#
+#Cenario 6
+  
+  total = 0
+  lista = []
+  
+  while True:
+    valor = int(input("Informe o valor a ser somado "))
+    if valor == 0:
+      print("Total  da soma {}, nro de elementos {} e lista de elementos {} ".format(
+          total, 
+          len(lista),
+          lista
+      ))
+      break
+      
+    elif valor >0 and valor <10:
+      total += valor # total = total + valor
+      lista.append(valor)
+      
+    else:
+          print ("Valor incorreto!")
+      
+   #__________________________________________________________________________________________#
+   # Cenario 3
+
+cidade = input("Você mora em Guaxupé? ")
+
+if cidade == 'Guaxupe':
+  idade = int(input("Qual é a sua idade ? "))
+  if idade > 18:
+    print(" Feliz morador da cidade de Guaxupé")
+else:
+  print("Que pena, Guaxupé é uma cidade linda")
+   
+#______________________________________________________________________________________________#
+# Cenario 4
+
+cidade = input("Você mora em Guaxupé? ")
+
+
+
+if cidade == 'Guaxupe':
+  idade = int(input("Qual é a sua idade ? "))
+  
+  if idade > 18:
+    print(" Feliz morador da cidade de Guaxupé")
+    
+    if idade < 18:
+      print("Que pena, mais um enfante morador de Guaxupé")
+      
+else :
+  opcao = input("Você teria vontade de se mudar para Guaxupé (s) (n)")
+  if opcao =='s':
+    print("Que bom, será muito bem vindo a  Guaxupé! ")
+    
+  else:
+    print (" Ok, seja feliz na sua cidade")
+#_______________________________________________________________________________________________________#
+# Cenario 5
+
+total = 0
+while True:
+  valor = int(input("Informe o valor a ser somado "))
+  if valor == 0:
+    print("Total  da soma ", total)
+    break
+      
+  elif valor > 0 and valor < 10:
+    total += valor 
+  else:
+    print ("Valor incorreto!")
+   
