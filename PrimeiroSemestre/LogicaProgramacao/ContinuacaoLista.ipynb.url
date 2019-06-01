@@ -1,2 +1,38 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1AyiLhLGU38TtND3R1pHGbJ0Os7pRDpjO
+#lst1 = [1,2,3,4,5,6]
+#lst2 = ['a', 1, 'José', 'Livro', 3.4]
+
+#lst1, lst2 = [1,2,3,4,5,6], ['a', 1, 'José', 'Livro', 3.4]
+
+lst = [1,2,3,0.25,4,5,6,580]
+
+print('Valor maximo é', max(lst))
+print('Valor menor é', min(lst))
+
+#valor maximo e minimo nas listas
+#__________________________________________________________________________#
+nome = "Jefferson Jeronimo"
+lst = list(nome)
+print (lst)
+#___________________________________________________________________________#
+nome = "Maria Garibalda"
+lst = list(nome.upper())
+print (lst)
+print('Numero de letras A', lst.count('a'))
+print('Numero de letras R', lst.count('r'))
+
+#count voce pega o a contagem dos caracteres
+#upper procurando caixa alta convertendo o nome pra caixa alta
+#__________________________________________________________________________#
+lst_nome = list("Maria")
+lst_val  = list(range(5))
+
+print(lst_val)
+print(lst_nome)
+
+lst_val.extend(lst_nome) # anexa os valores na mesma lista
+print(lst_val)
+
+#lst_val.remove('M')# REMOVE COME A OPÇÃO QUE VOCÊ QUER
+#print(lst_val)
+
+print(lst_val.index('M'))# pega a posicao
