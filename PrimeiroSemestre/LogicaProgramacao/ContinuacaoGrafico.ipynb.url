@@ -1,2 +1,14 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1dgD_tal2XUin549YkJXM1e3jOGQ_--_P
+# grafico 1
+
+import numpy             as np  #gerador de dados
+import matplotlib.pyplot as plt #plotagem do grafico
+
+
+x = np.arange(-10.0, 10.0, 0.001) #geracao dos dados(VETOR)
+y = x**2                          #implementar a funcao
+
+#plotagem do grafico
+papel, caneta = plt.subplots() #criando os objetps para a plotagem
+caneta.plot(x,y)#plotando o grafico
+
+plt.show() #apresentando o grafico
