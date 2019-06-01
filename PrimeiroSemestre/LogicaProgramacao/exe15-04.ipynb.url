@@ -1,2 +1,31 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1zq87jBd8LdXN5bzSjszFOerYSwSx4DAf
+# monte um laço que some os elementos de uma lista de 30 elementos contando em paco de 2/ fluxograma
+
+qtd  = 30
+soma = 0
+
+for L in range (0,qtd,2):
+  soma += L
+print(soma)
+#_____________________________________________________________________________________________________________________#
+# monte uma lista com nomes informados pelo usuario. Para parar o processo de inclusão dos nomes
+# o usuario deve digitar a palavra 'FIM' depois deve ser impresso a relação dos nomes seguida com
+# o tamanho (numero de letras) de cada um deles.
+
+lista = []
+
+while True:
+  nome = input ("Informe um nome ") #range gera a lista
+  if nome.upper() == 'FIM':
+    break
+    
+  lista.append(nome)
+  
+  
+print('Foram informados {} nome(s)'.format(len(lista)))    
+
+for n in lista:
+  print('Nome informado {} com {} letra(s)'.format(n, len(n)))
+  
+  
+print('Fim da aplicação')
+
