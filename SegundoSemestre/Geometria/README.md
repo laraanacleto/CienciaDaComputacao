@@ -14,4 +14,4 @@ Carga Horária: 60
     Aulas expositivas dos conceitos teóricos, com exemplos e exercícios para fixação desses conceitos. Listas de exercícios que exijam conhecimentos adquiridos anteriormente fazendo a integração com os novos conceitos. E aulas para discussão de dúvidas adquiridas nos estudos e nas listas de exercícios
  
 ## Critérios de Avaliação:
-    Prova bimestral dissertativa, individual e sem consulta, procurando avaliar o domínio dos conceitos da disciplina, bem como a organização de ideias e capacidade de analisar, interpretar e resolver problemas. Trabalho de conclusão de disciplina. Aprovação de acordo com o guia acadêmico 2018.
+    Prova bimestral dissertativa, individual e sem consulta, procurando avaliar o domínio dos conceitos da disciplina, bem como a organização de ideias e capacidade de analisar, interpretar e resolver problemas. Trabalho de conclusão de disciplina. Aprovação de acordo com o guia acadêmico 2018
