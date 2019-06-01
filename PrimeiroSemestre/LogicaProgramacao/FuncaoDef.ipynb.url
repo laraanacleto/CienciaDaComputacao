@@ -1,2 +1,52 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1eIxRf2Fz5sOWX2kuNVcUm_1Z1c7k8KS2
+def mensagem_ola():
+  print('Ola Mundo')
+  print('Tudo bem')
+  
+def avalia_idade():
+  idade = int(input('Qual a sua idade '))
+  if idade > 18:
+    print('voce tem mais que 18')
+  else:
+    print('Voce não tem mais que 18')
+  
+mensagem_ola()
+avalia_idade()
+#_____________________________________________________________________#
+def saudacao(nome):   # def você usa pra chamar uma funcao, usando quantas vezes for preciso
+  print("Ola", nome)
+  
+saudacao("Helena")
+saudacao("Maria")
+saudacao("Lau")
+#_________________________________________________________________________#
+import numpy as np
+
+
+def f01(x):
+  return (-2*x) - 1 #def funcao que recebe um valor d x
+
+def f02(x):
+  return (2*x) + 1
+
+def f00(x):
+  
+  if x <= -2:
+    return f01(x)
+  
+  if -2 < x and x < 1 :
+    return 3
+  
+  if 1 <= x:
+    return f02(x)
+  
+  
+x = np.arange(-10.,10.,0.001)  #arange funcao da funcao numpy
+y = []
+for v in x:
+  y.append(f00(v))
+
+print(len(x))
+print(len(y))
+
+
+print(f01(-1)) # 3  é o valor de 3
