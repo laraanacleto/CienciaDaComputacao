@@ -1,2 +1,19 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1ETclgIeu-ZasVhKmW-a9We8bqOZQPLIZ
+# Grafico 1                    x**2-2.5*x
+
+
+import numpy             as np
+import matplotlib.pyplot as plt
+
+#geracao de dados
+x = np.arange(-10., 10., 0.001) #gerando valores x    #10. quer dizer que é um ponto flutuante
+y = -((x**2) - (2.5*x))         #implementando a funcao
+
+
+#plotar grafico
+
+folha,caneta = plt.subplots()
+caneta.plot(x,y)
+
+
+plt.show()
+
