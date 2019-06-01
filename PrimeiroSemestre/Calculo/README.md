@@ -21,4 +21,4 @@ ferramentas técnicas.
     Aulas expositivas, explicativas, com uso de data - show, listas de exercícios, trabalhos em grupo.
  
 *** Critérios de Avaliação:
-    Avaliação individual, trabalhos individuais e em grupo, participação em sala de aula
+    Avaliação individual, trabalhos individuais e em grupo, participação em sala de aula.
