@@ -1,2 +1,18 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1_dr7_04z5ZbkGdNwbiN0pdnPKCfA1ABd
+import numpy as np
+import matplotlib.pyplot as plt #importando o grafico
+
+x  = np.arange(0.0,2.0,0.01) #0.0 onde comeca, 2.0 ate onde ele vai, 0.01 tamanho do passo
+y  = 1 + np.sin(2* np.pi * x)
+y2 = 1 + np.cos(2* np.pi * x)
+
+#print(len(x))# tamanho do vetor
+print(len(y))
+
+fing, ax = plt.subplots() #preparando pra plota o grafico /folha de papel/caneta
+ax.plot(x, y, '--r', x,y2) #colocando mais curvas no grafico
+
+plt.show()
+
+
+
+print('Fim da aplicacao')
