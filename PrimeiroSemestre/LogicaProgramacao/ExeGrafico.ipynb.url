@@ -1,2 +1,16 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1MM8KeHmXB01H8Gfqesd9_uCcvSaiMLqV
+import numpy as np
+import matplotlib.pyplot as plt
+
+x  = np.arange(-8,4.0,0.01) #0.0 onde comeca, 2.0 ate onde ele vai, 0.01 tamanho do passo
+y  = (1 / 1 + np.exp(-x))
+
+print(len(y))
+
+fing, ax = plt.subplots() #preparando pra plota o grafico /folha de papel/caneta
+ax.plot(x, y, '--r') #colocando mais curvas no grafico
+
+plt.show()
+
+
+
+print('Fim da aplicacao')
