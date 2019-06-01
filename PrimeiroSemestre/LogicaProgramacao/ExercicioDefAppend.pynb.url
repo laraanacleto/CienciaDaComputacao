@@ -1,2 +1,42 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1YYtMNL_JZAY0FgpgIO2eN_ZwKM-80ndq
+# resolucao do fluxo 24/05
+
+#criar as variaveis globais
+
+nome    = []
+salario = []
+taxa    = []
+
+#funcao para printar relatorio
+
+def printa_valores():
+  for p, n in enumerate (nome):   # enumerate da a possicao
+    print("{} - {} - {} -".format(n, salario[p], taxa[p]))
+    print(".....")
+    
+   
+#criar funcao calcula_taxa
+
+def calcula_taxa(salario):
+  if salario <= 1000:
+    return 0
+  
+  elif salario > 1000 and salario <= 3000:
+    return salario * 0.15
+  else:
+    return salario * 0.20
+  
+# executa o laco de repeticao
+
+while True:
+  v_nome = input('Informe nome ')
+  if v_nome.upper() =='FIM':
+    break
+  v_salario = float(input('Informe salario '))
+  nome.append(v_nome)
+  salario.append(v_salario)
+  taxa.append(calcula_taxa(v_salario))
+
+  
+printa_valores()
+
+print('Final da aplicacao')    
