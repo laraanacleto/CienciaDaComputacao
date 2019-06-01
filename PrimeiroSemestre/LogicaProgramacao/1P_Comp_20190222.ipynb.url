@@ -1,2 +1,13 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1CQuOqvQG1ZdkbuUK_0K4FHGTkvyGvjIo
+#print("Qual é a sua idade?")
+idade = input("Quala sua idade?")
+
+if int(idade) > 18:
+  nome = input("Mamãe poe o seu nome aqui, por favor")
+  if nome == "Q" :
+    print("Deu mal")
+  else:
+    print(nome)
+else:
+  print("Deixa quieto")
+  
+print("..Fim")
