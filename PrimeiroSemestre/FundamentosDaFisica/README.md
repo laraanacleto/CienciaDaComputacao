@@ -12,7 +12,7 @@ Carga Horária: 60
     Ao final da disciplina o aluno deverá ter noções do uso de instrumentos elétricos, tais como osciloscópio, multímetros e geradores, etc. Com as noções básicas adquiridas nesta disciplina o aluno deverá entender e projetar circuitos elétricos simples indispensáveis nas disciplinas mais avançadas ao curso de Computação.
  
 ### Metodologia:
-    Aulas expositivas; listas de exercícios; vídeos e simuladores
+    Aulas expositivas; listas de exercícios; vídeos e simuladores.
  
 ***Critérios de Avaliação:
     Listas de exercício e Provas Bimestrais.
