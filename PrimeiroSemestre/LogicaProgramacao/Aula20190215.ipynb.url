@@ -1,2 +1,29 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/1E-gHt6mHIa6cxqHJX9g8KRwQGjUrA9zq
+#codigo da Aula 2019-02-15
+#Curso de ciencia da coputacao 1° periodo 2019
+
+#cria uma variavel tipo string
+nome_da_gato = "CraudynoR"
+
+#cria as variaveis booleanas para os testes logicos
+sera_que_pergunto = True
+shipo = False
+ 
+# aqui vou testar minha coragem  
+if sera_que_pergunto:
+  
+  nome_da_gato = input("Qual e o seu nome")
+  
+  #aqui testa o clima
+  if shipo:
+    
+    print(nome_da_gato)
+    
+  else:
+    print("deu mal")
+  
+else:
+  
+  print("moio o encontro")
+  
+  
+print("..! fim da aplicaçao")  
