@@ -11,7 +11,7 @@ Carga Horária: 60
     Fornecer ao aluno ferramentas matemáticas para que o aluno possa: operar corretamente usando matrizes e vetores; resolver problemas modelados por sistemas de equações lineares e interpretar os resultados; resolver problemas que envolvam retas e planos e interpretar os resultados. Promover o desenvolvimento do raciocínio matemático abstrato, imprescindível e fundamental na formação do Engenheiro.
  
 ## Metodologia:
-    Aulas expositivas dos conceitos teóricos, com exemplos e exercícios para fixação desses conceitos. Listas de exercícios que exijam conhecimentos adquiridos anteriormente fazendo a integração com os novos conceitos. E aulas para discussão de dúvidas adquiridas nos estudos e nas listas de exercícios.
+    Aulas expositivas dos conceitos teóricos, com exemplos e exercícios para fixação desses conceitos. Listas de exercícios que exijam conhecimentos adquiridos anteriormente fazendo a integração com os novos conceitos. E aulas para discussão de dúvidas adquiridas nos estudos e nas listas de exercícios
  
 ## Critérios de Avaliação:
     Prova bimestral dissertativa, individual e sem consulta, procurando avaliar o domínio dos conceitos da disciplina, bem como a organização de ideias e capacidade de analisar, interpretar e resolver problemas. Trabalho de conclusão de disciplina. Aprovação de acordo com o guia acadêmico 2018.
