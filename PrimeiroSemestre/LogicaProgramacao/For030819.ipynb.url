@@ -1,2 +1,31 @@
-[InternetShortcut]
-URL=https://colab.research.google.com/drive/12X2DNCdmk-wVe8dVq2ItzqzBA0vKdTbX
+for v in range(5):
+  print(v)
+  
+#_______________________________________________________#
+val = 0
+while True:
+  print(val)
+  val = val +1
+  if val == 5:
+    break
+#break você quebra o laço e volta pro laço acima dele.
+#_______________________________________________________________#
+#programa exemplo da aula 
+#sugestão do Gabriel
+
+soma_dentro = 0
+soma_fora   = 0
+qtd_passos  = 0
+
+qtd_passos = int(input('Informe o numero de passos '))
+
+for v in range(qtd_passos):
+  valor = int(input('Informe o valor..:'))
+  if valor in range(10,20):
+    soma_dentro += 1
+  else:
+    soma_fora +=1
+    
+print('Valor total de valores dentro da faixa foi de', soma_dentro)
+print('Valor total de valores fora da faixa foi de', soma_fora)
+print('Fim do processamento')
